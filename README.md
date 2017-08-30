@@ -1,6 +1,4 @@
-## Project Description
-
----
+## Data Mining
 
 ### Project 1
 
