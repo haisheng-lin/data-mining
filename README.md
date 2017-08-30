@@ -96,7 +96,7 @@ The Scene dataset consist of 2407 images of an outdoor scene, where each image i
 One strategy to solve a multi-label learning problem is to train an SVM separately for each class. To predict a test sample, each SVM is applied separately on it. A positive output indicates that the
 corresponding class is present and a negative output indicates that it is absent. The accuracy is computed using the following expression:
 
-![alt text](http://www.sciweavers.org/tex2img.php?eq=A%20%3D%20%20%5Cfrac%7B%7CT%20%20%5Ccap%20%20P%7C%7D%7B%7CT%20%20%5Ccup%20%20P%7C%7D%20&bc=White&fc=Black&im=jpg&fs=18&ff=arev&edit=0 "equation")
+![alt text](http://os0wqvgrz.bkt.gdipper.com/DataMining_Project3_Problem1.png "equation")
 
 where T is the true class label vector of a test sample and P is the predicted class label vector. Train an SVM classification model on the training set and test on the test set. Report the percentage accuracy on the test set using the following classification models: (i) SVM with polynomial kernel with parameter 2 and (ii) SVM with Gaussian kernel with parameter 2.
 
